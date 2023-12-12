@@ -34,8 +34,10 @@
 .link{
     width: 40px;
     height: 40px;
+    padding: 10px;
     background-color: black;
     color: #fff;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +46,7 @@
     cursor: pointer;
 }
 
-.overlay a:hover{
+.link:hover{
     background: #fff;
     color: #000;
 }
